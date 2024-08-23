@@ -1335,7 +1335,7 @@ PyNumberMethods Element_num_meths = {
 	0,				//binaryfunc nb_inplace_and;
 	0,				//binaryfunc nb_inplace_xor;
 	0,				//binaryfunc nb_inplace_or;
-	0,
+	// 0,
 	0,				//binaryfunc nb_floor_divide;
 	Element_div,		//binaryfunc nb_true_divide;
 	0,				//binaryfunc nb_inplace_floor_divide;
