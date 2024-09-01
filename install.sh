@@ -16,4 +16,5 @@ sudo make install &&
 sudo ldconfig &&
 cd .. &&
 sudo ./cryptoenv/bin/pip3 install ./pypbc &&
+find . -name "*pbc*" -exec rm -rf {} +
 echo "pypbc installed successfully!"
